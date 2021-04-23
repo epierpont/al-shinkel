@@ -1,0 +1,40 @@
+.about {
+  background: linear-gradient($white, $tan-light);
+  padding: 5rem 0;
+
+  .container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  h3 {
+    color: $gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+    &:after {
+      content: "//";
+      padding-left: 0.75rem;
+      font-weight: 400;
+      color: $green;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.85rem;
+
+    li {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  p {
+    font-family: $serif;
+    color: #615857;
+    line-height: 2.2rem;
+  }
+}
