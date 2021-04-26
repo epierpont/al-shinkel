@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import alResume from "../pdfs/al-shinkel-resume.pdf";
 
 class About extends Component {
   componentDidMount() {}
@@ -7,8 +8,8 @@ class About extends Component {
     return (
       <div className="about">
         <div className="container">
-          <div className="row">
-            <div className="col-md-4">
+          <div className="row gx-5">
+            <div className="col-lg-4 order-2 order-lg-1 credentials">
               <h3>Credentials</h3>
               <ul>
                 <li>
@@ -17,13 +18,16 @@ class About extends Component {
                   Boston University
                 </li>
                 <li>
-                  <strong>Vocational Rehabilation Counseling M.Ed,</strong>
+                  <strong>Vocational Rehabilation Counseling M.Ed.</strong>
                   <br />
                   Michigan State University
                 </li>
               </ul>
+              <a class="btn btn-primary" href={alResume} role="button">
+                <span class="icon"></span> Resume
+              </a>
             </div>
-            <div className="col-md-8">
+            <div className="col-lg-8 order-1 order-lg-2 personal">
               <h3>Personal Intro</h3>
               <p>
                 Allen's Coffee Brandy mistah man gawmy noseeum mistah man

@@ -1,11 +1,6 @@
 .callout {
   background-color: $green;
   color: $white;
-  //-webkit-transform: skewY(2.5deg);
-  //-moz-transform: skewY(2.5deg);
-  //-ms-transform: skewY(2.5deg);
-  //-o-transform: skewY(2.5deg);
-  //transform: skewY(2.5deg);
 
   h3 {
     font-size: 1.8rem;
@@ -15,12 +10,4 @@
     font-family: $serif;
     margin-bottom: 0;
   }
-
-  //.wrapper {
-  //-webkit-transform: skewY(-2.5deg);
-  //-moz-transform: skewY(-2.5deg);
-  //-ms-transform: skewY(-2.5deg);
-  //-o-transform: skewY(-2.5deg);
-  //transform: skewY(-2.5deg);
-  //}
 }

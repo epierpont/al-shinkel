@@ -11,14 +11,14 @@ class Contact extends Component {
           <div className="row">
             <div class="col">
               <div className="row">
-                <div className="col-3">
+                <div className="col-md-3 order-2 order-md-1">
                   <img
                     src={careerConsultant}
                     alt="Career Consultant"
                     className="shadow mx-auto"
                   />
                 </div>
-                <div className="col-9">
+                <div className="col-md-9 order-1 order-md-2">
                   <h4>Contact Dr. Shinkel</h4>
                   <p>
                     Moody's Bah Hahbah mistah man dingy The 'Gash Saddee I'm
@@ -28,8 +28,8 @@ class Contact extends Component {
                     dingy. Gash dang flatlanduhs and their boilin' plates
                     cubboard kid stove-up the pit.
                   </p>
-                  <div className="row info">
-                    <div className="col">
+                  <div className="row info gx-5">
+                    <div className="col-md-4">
                       <h5>
                         Email
                         <br />
@@ -40,7 +40,7 @@ class Contact extends Component {
                         </span>
                       </h5>
                     </div>
-                    <div className="col">
+                    <div className="col-md-4">
                       <h5>
                         Phone
                         <br />
@@ -49,7 +49,7 @@ class Contact extends Component {
                         </span>
                       </h5>
                     </div>
-                    <div className="col">
+                    <div className="col-md-4">
                       <h5>
                         Address
                         <br />

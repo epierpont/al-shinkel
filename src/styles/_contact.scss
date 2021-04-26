@@ -3,9 +3,11 @@
   padding: 5rem 0;
   background-image: url("../images/contact-bg.jpg");
 
-  .container {
-    padding-left: 10rem;
-    padding-right: 10rem;
+  @media (min-width: 992px) {
+    .container {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
 
   h4 {
@@ -30,6 +32,7 @@
     font-size: 1.1rem;
     color: $green;
     line-height: 1.5rem;
+    margin-bottom: 2rem;
 
     span {
       text-transform: initial;
@@ -48,7 +51,21 @@
 
   img {
     border-radius: 5px;
-    max-width: 75%;
+    max-width: 25%;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    img {
+      max-width: 80%;
+    }
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    img {
+      max-width: 150px;
+    }
   }
 
   p {

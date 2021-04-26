@@ -2,9 +2,15 @@
   background: linear-gradient($white, $tan-light);
   padding: 5rem 0;
 
-  .container {
-    padding-left: 10rem;
-    padding-right: 10rem;
+  .personal {
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
 
   h3 {
@@ -36,5 +42,35 @@
     font-family: $serif;
     color: #615857;
     line-height: 2.2rem;
+  }
+
+  .btn {
+    background-color: transparent;
+    border: 2px solid $green;
+    color: $green;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+
+    .icon {
+      -webkit-mask-image: url("../images/graduation-cap-solid.svg");
+      mask-image: url("../images/graduation-cap-solid.svg");
+      mask-repeat: no-repeat;
+      height: 18px;
+      display: block;
+      width: 18px;
+      background-color: $green;
+      display: inline-block;
+      margin: 0 4px -6px 0;
+    }
+
+    &:hover {
+      background-color: $green;
+      color: $white;
+
+      .icon {
+        background-color: $white;
+      }
+    }
   }
 }

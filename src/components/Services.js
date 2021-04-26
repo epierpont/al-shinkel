@@ -7,8 +7,8 @@ class Services extends Component {
     return (
       <div className="services">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6 col">
+          <div className="row gx-5">
+            <div className="col-lg-6">
               <h4>Career Development Services</h4>
               <p>
                 Career development services are offered to individuals to help
@@ -42,8 +42,9 @@ class Services extends Component {
                 reduces anxiety and allows them to focus on the immediate
                 concern of their education.
               </p>
+              <hr class="d-lg-none" />
             </div>
-            <div className="col-md-6 col">
+            <div className="col-lg-6">
               <h4>Life Planning</h4>
               <p>
                 Designed for individuals who are attempting to make significant
