@@ -67,7 +67,7 @@ class Services extends Component {
                   lifestyle
                 </li>
               </ul>
-              <hr />
+              <hr style={{ "margin-top": "2.1rem" }} />
               <h4>Special Consulting Services</h4>
               <p>
                 Special medical and management consulting services offered are:
