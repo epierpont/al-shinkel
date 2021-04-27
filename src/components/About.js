@@ -28,28 +28,26 @@ class About extends Component {
               </a>
             </div>
             <div className="col-lg-8 order-1 order-lg-2 personal">
-              <h3>Personal Intro</h3>
+              <h3>About Dr. Shinkel</h3>
               <p>
-                Allen's Coffee Brandy mistah man gawmy noseeum mistah man
-                Powrtland way up north bogan justa smidgin batrees. Auguster
-                Chundah. Gohd dammah. yahd bub, Outta Staydahs nummah dooryahd
-                door-yahd Fryeburg Fayah fish chowdah, can't get theyah from
-                heeyah Ahcadiuh yut dingy Mount Dessuht swampdonkey way up
-                north, puckahbrush robin showah Fryeburg Fayah numb, paypuh
-                bowee bookin' it naw huck cunnin', fish chowdah moose got in a
-                gaum huntin' deeah junkah yow uns.
+                Al Shinkel's achievements in career consulting are many and they
+                have been recognized often, but the achievement that means the
+                most to him is helping hundreds of people identify satisfying
+                career paths and life directions consistent with their values
+                and “central life theme.” He has worked with people from four
+                continents, of all ages and at all stages in life, particularly
+                at times of choosing -- before and after college, in mid-life
+                when a career change is required or desired, and before or after
+                retirement, when many people want to identify another career
+                that will be personally rewarding and re-engaging.
               </p>
 
               <p>
-                Leaf peepahs the pit geez bud, Sundee ankle biteah Allen's
-                Coffee Brandy aht yahd N'Hampshah gawmy out in th' willie-wacks,
-                pig fat windah bendah Bangoah gash dang flatlanduhs and their
-                boilin' plates Bangoah gettin' ugly N'Hampshah unthaw You is sum
-                wicked suhmart, Sundee puckahbrush rig up noseeum. Whawf Up in
-                thah county Powrtland blizzahd way up north fish chowdah. Nummah
-                N'Hampshah wintah what a cahd tunk slower than molasses going
-                uphill in January wicked pissah some wicked, yow uns huck
-                p'dayduhs Sundee.
+                With more than three decades of experience, Al has streamlined
+                the process of helping clients clarify their values and
+                inventory their interests. Working with Al, clients learn to
+                “speak from the heart” as to what has the most meaning for them
+                in life.
               </p>
             </div>
           </div>

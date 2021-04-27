@@ -21,12 +21,10 @@ class Contact extends Component {
                 <div className="col-md-9 order-1 order-md-2">
                   <h4>Contact Dr. Shinkel</h4>
                   <p>
-                    Moody's Bah Hahbah mistah man dingy The 'Gash Saddee I'm
-                    tellin' you, wee bit nippy chimbly puff cah tunk rhubaahb,
-                    Hold'er Newt she's, heddin for da ruhbarb! from away numb
-                    moose up t' camp whawf wreckah Laum Ipsum Fryeburg Fayah
-                    dingy. Gash dang flatlanduhs and their boilin' plates
-                    cubboard kid stove-up the pit.
+                    If you are seeking clarity as to life's purpose and to
+                    communicate better with others not just intellectually but
+                    emotionally as well, please contact Dr. Al Shinkel. A
+                    telephone call is the preferred initial method.
                   </p>
                   <div className="row info gx-5">
                     <div className="col-md-4">
