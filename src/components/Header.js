@@ -17,7 +17,7 @@ class Header extends Component {
                   <span>Ed.D.</span>
                 </h1>
               </div>
-              <div className="col-6">
+              <div className="col-6 d-flex flex-column justify-content-center ">
                 <img src={alShinkel} alt="Al Shinkel" />
               </div>
             </div>
